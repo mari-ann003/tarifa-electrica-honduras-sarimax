@@ -66,4 +66,5 @@ if __name__ == "__main__":
 
     out.to_csv(OUT_QTR, index=False)
     print("OK ->", OUT_QTR.resolve())
+
     print(out.tail(8))
